@@ -5,7 +5,7 @@
     "url": "http://tomasz.janczuk.org",
     "twitter": "tjanczuk"
   },
-  "version": "0.1.0-pre",
+  "version": "0.1.0",
   "description": "Send push notifications to Android devices using GCM",
   "tags" : ["azure", "sdk", "android", "notifications", "gcm", "push"],
   "main": "./lib/droid.js",
