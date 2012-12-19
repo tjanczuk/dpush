@@ -92,7 +92,7 @@ The `response` parameter contains the following two properties that the `dpush` 
 
 ## Advanced notifications
 
-If you require any of the following advanced notification features, you must use the the `dpush.sendAdvanced` API instead of the `dpush.send` API:
+If you require any of the following advanced notification features, you must use the `dpush.sendAdvanced` API instead of the `dpush.send` API:
 
 * automatically retry sending the notications if GCM servers are too busy,
 * collapse multiple notifications into one if the notification cannot be delievered at once,
