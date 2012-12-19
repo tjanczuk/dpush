@@ -14,7 +14,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "mocha": "1.2.0",
+    "mocha": "1.7.0",
     "nock": "0.13.3"
   },
   "homepage": "https://github.com/tjanczuk/dpush",
@@ -26,6 +26,6 @@
     "url" : "http://github.com/tjanczuk/dpush/issues"
   },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha -R list"
+    "test": "node node_modules/mocha/bin/mocha -u tdd -R list"
   }
 }
