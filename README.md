@@ -5,8 +5,8 @@ Send push notifications from a node.js application to an Android device using [G
 
 ## What you need
 
-* Create a new Google API project following instructions from http://developer.android.com/google/gcm/gs.html. The API key associated with the project is `apiKey` parameter required by dpush. 
-* Create an Android application and register it with GCM to receive notifications. The device will be assigned a registration ID, which allows dpush to send notifications to the device. 
+* Create a new Google API project following instructions from [here](http://developer.android.com/google/gcm/gs.html). The API key associated with the project is used as the `apiKey` parameter required by dpush. 
+* Create an Android application and register it with GCM to receive notifications following instruction from [here](http://developer.android.com/google/gcm/gs.html). The device will be assigned a registration ID, which allows dpush to send notifications to the device. 
 
 ## Your first notification
 
@@ -47,7 +47,7 @@ public class GCMIntentService extends GCMBaseIntentService {
 }
 ```
 
-The message parameter (`Hello, world!`) is optional. If not specified, the notification is still delivered but does not contain any paload. This can be used to signal the Andorid application, perhaps to perform a pull for data. 
+The message parameter of the `dpush.send` API (Hello, world!) is optional. If not specified, the notification is still delivered but does not contain any paload. This can be used to signal the Android application, perhaps to perform a pull for data. 
 
 ## Sending multiple key value pairs
 
@@ -97,7 +97,7 @@ If you require any of the following advanced notification features, you must use
 * automatically retry sending the notications if GCM servers are too busy,
 * collapse multiple notifications into one if the notification cannot be delievered at once,
 * only send a notification if the device is active,
-* TTL for the notification at GCM servers while the device is offline,
+* specify the TTL for storing notifications at GCM servers while the device is offline,
 * restrict delivery to applications with specific package name,
 * issue the request against GCM sandbox without actual delivery to the device. 
 
