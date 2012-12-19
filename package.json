@@ -1,0 +1,28 @@
+{
+  "name": "dpush",
+  "author": {
+    "name": "Tomasz Janczuk <tomasz@janczuk.org>",
+    "url": "http://tomasz.janczuk.org",
+    "twitter": "tjanczuk"
+  },
+  "version": "0.1.0-pre",
+  "description": "Send push notifications to Android devices using GCM",
+  "tags" : ["azure", "sdk", "android", "notifications", "gcm", "push"],
+  "main": "./lib/droid.js",
+  "engines": { "node": ">= 0.6.20" },
+  "licenses": [ { "type": "Apache", "url": "http://www.apache.org/licenses/LICENSE-2.0" } ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.2.0",
+    "nock": "0.13.3"
+  },
+  "homepage": "https://github.com/tjanczuk/dpush",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tjanczuk/dpush.git"
+  },
+  "bugs" : {
+    "url" : "http://github.com/tjanczuk/dpush/issues"
+  }
+}
