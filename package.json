@@ -24,5 +24,8 @@
   },
   "bugs" : {
     "url" : "http://github.com/tjanczuk/dpush/issues"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha -R list"
   }
 }
