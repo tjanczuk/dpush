@@ -19,7 +19,7 @@ npm install dpush
 Then send a notification to your Android application with:
 
 ```javascript
-var wns = require('dpush');
+var dpush = require('dpush');
 
 var registrationId = '{registration ID obtained by the Android application}';
 var apiKey = '{API key associated with the Google API project}';
